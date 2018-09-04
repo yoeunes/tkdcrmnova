@@ -48,11 +48,11 @@
         {{--</div>--}}
         {{--<button class="block bg-blue px-6 py-4 text-white rounded mx-auto hover:bg-blue-dark" type="submit">Submit</button>--}}
     {{--</form>--}}
-    @if (session('form-success'))
-        <div class="bg-green mt-8 p-6 rounded shadow">
-            <p class="text-white">{{ session('form-success') }}</p>
-        </div>
-    @endif
+    {{--@if (session('form-success'))--}}
+        {{--<div class="bg-green mt-8 p-6 rounded shadow">--}}
+            {{--<p class="text-white">{{ session('form-success') }}</p>--}}
+        {{--</div>--}}
+    {{--@endif--}}
 </div>
 </body>
 </html>
